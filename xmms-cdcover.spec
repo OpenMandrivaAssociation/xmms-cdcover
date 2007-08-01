@@ -29,6 +29,7 @@ cover is searched for.
 %setup -q
 aclocal-1.4
 autoconf
+libtoolize --copy --force
 
 %build
 %configure2_5x
