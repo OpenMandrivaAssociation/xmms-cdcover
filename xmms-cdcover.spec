@@ -11,7 +11,6 @@ URL: http://ducts.27b-6.de/cdcover/
 License: GPL
 Group: Sound
 Requires: xmms
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: xmms-devel
 BuildRequires: gdk-pixbuf-devel
 #gw versioned automake called
