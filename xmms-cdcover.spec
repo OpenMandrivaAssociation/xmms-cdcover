@@ -1,6 +1,6 @@
 %define name xmms-cdcover
 %define version 0.2
-%define release %mkrel 6
+%define release %mkrel 8
 
 Name: %{name}
 Summary: Visualization plugin for xmms that displays a CD cover if available
