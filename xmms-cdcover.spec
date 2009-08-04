@@ -1,6 +1,6 @@
 %define name xmms-cdcover
 %define version 0.2
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name: %{name}
 Summary: Visualization plugin for xmms that displays a CD cover if available
@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 Source: http://ducts.27b-6.de/cdcover/dist/%name-%version.tar.bz2
 URL: http://ducts.27b-6.de/cdcover/
-License: GPL
+License: GPLv2+
 Group: Sound
 Requires: xmms
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
