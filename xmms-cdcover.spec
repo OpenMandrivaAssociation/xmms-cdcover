@@ -1,6 +1,6 @@
 %define name xmms-cdcover
 %define version 0.2
-%define release %mkrel 10
+%define release %mkrel 11
 
 Name: %{name}
 Summary: Visualization plugin for xmms that displays a CD cover if available
@@ -14,8 +14,6 @@ Requires: xmms
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: xmms-devel
 BuildRequires: gdk-pixbuf-devel
-#gw versioned automake called
-BuildRequires: automake1.4
 
 %description
 CDCover is a plugin for xmms, which displays a graphic dependent on
@@ -27,9 +25,7 @@ cover is searched for.
 %prep
 
 %setup -q
-aclocal-1.4
-autoconf
-libtoolize --copy --force
+autoreconf -fi
 
 %build
 %configure2_5x
