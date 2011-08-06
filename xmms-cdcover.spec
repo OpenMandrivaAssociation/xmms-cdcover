@@ -14,6 +14,7 @@ Requires: xmms
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: xmms-devel
 BuildRequires: gdk-pixbuf-devel
+BuildRequires: automake
 
 %description
 CDCover is a plugin for xmms, which displays a graphic dependent on
