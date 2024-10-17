@@ -7,7 +7,7 @@ Summary: Visualization plugin for xmms that displays a CD cover if available
 Version: %{version}
 Release: %{release}
 Source: http://ducts.27b-6.de/cdcover/dist/%name-%version.tar.bz2
-URL: http://ducts.27b-6.de/cdcover/
+URL: https://ducts.27b-6.de/cdcover/
 License: GPLv2+
 Group: Sound
 Requires: xmms
